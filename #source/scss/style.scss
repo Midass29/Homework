@@ -1,0 +1,145 @@
+//Файл обнулящих стилей
+@import "_nullstyle";
+
+body {
+   background: #e8e8e8 url(/img/ellipse.png) 50% 120px  no-repeat;;
+}
+
+.content {
+   padding: 168px 0 137px 0;
+   max-width: 841px;
+   margin: 0px auto;
+}  
+
+
+.content-top {
+   text-align: center;
+   margin-bottom: 65px;
+
+   &__category {
+      opacity: 0.6;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      margin-bottom: 17px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #273d46;
+   }
+
+   &__title {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 36px;
+      line-height: 50px;
+      color: #273d46;
+      max-width: 725px;
+      margin: 0 auto;
+   }
+}
+
+
+
+.content-image {
+   box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+   background-color: white;
+   padding: 10px;
+   margin-bottom: 90px;
+   &__item img {
+      min-width: 100%;
+   }
+}
+
+
+.content-bottom {
+   padding: 0 45px;
+
+
+   &__text {
+      opacity: 0.8;
+      font-size: 24px;
+      line-height: 40px;
+      color: #273d46;
+      margin-bottom: 43px;
+   }
+   &__text p {
+      margin-bottom: 40px;
+      
+   }
+   &__text p:last-child {
+      margin-bottom: 0px;
+   }
+
+   
+}
+
+
+
+
+.content-bottom__info {
+
+   &-list {
+      margin-bottom: 59px;
+   }
+
+   &-link {
+      height: 44px;
+      display: inline-block;
+      line-height: 44px;
+      padding: 0 30px;
+      -webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 1);
+      box-shadow: 0px 5px 1px  rgba(0, 0, 0.5);
+      background-color: #80b7b3;
+      border-radius: 24px;
+      
+      font-family: Arial;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #ffffff;
+   }
+   &-link span {
+      padding-right: 30px;
+      background: url(/img/icon/arrow-icon.png) right no-repeat;
+      
+   }
+   &-link:hover {
+      background-color: red;
+   }
+   &-link:active{
+      position: relative;
+      top: 3px;
+      -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+      box-shadow: 0px 2px 1px  rgba(0, 0, 0.5);
+   }
+}
+
+.content-bottom__info-list li {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   line-height: 36px;
+   background: url('/img/icon/check-icon.png') left no-repeat;
+   padding-left: 34px;
+   &__info-list li :last-child{
+      margin-bottom: 0;
+   }
+}
+
+.content-bottom__info-list li:nth-child(1) {
+   text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+   color: #273d46;
+}
+.content-bottom__info-list li:nth-child(2) {
+   font-style: italic;
+   color: #80b7b3;
+}
+.content-bottom__info-list li:nth-child(3) {
+   line-height: 36px;
+   font-weight: 700;
+   color: #273d46;
+}
+
+.content-bottom__info-list li:nth-child(4) {
+   opacity: 0.3;
+   font-weight: 400;
+   text-decoration: line-through;
+   color: #273d46;
+}
